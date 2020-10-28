@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         double result = Double.parseDouble(beforeadd) + Double.parseDouble(afteradd) ;
 
-        resultTV.setText("Result = "+result);
+        resultTV.setText(String.valueOf(result));
 
     }
 
